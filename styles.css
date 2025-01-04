@@ -65,7 +65,8 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
+    background-position: center;
 }
 
 .hero-text {
@@ -278,7 +279,7 @@ textarea {
       height: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
-      position: relative;
-      /* background-position: center; */
+      /* position: relative; */
+      background-position: center;
     }
   }
