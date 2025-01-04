@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>BMW Library</title>
+        <link rel="icon" type="image/x-icon" href="/images/bmw-logo-2.png">
+    </head>
+    <body>
+        <!--    Section for navigation bar with logo   -->
+        <section id="navbar-section">
+            <header>
+                <nav id="navbar">
+                    <ul>
+                        <li><img id="navbar-logo" src="images/bmw-logo-2.png" alt="BMW Logo" /></li>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a id="catalog-link" href="Catalog.html">Catalog</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+
+        <main>
+            <section id="contact-text">
+                <h1>Contact BMW Library</h1>
+                <div id="short-border"></div>
+                <p>Contact our expert support staff members.</p>
+                <p>Every aspect of everything BMW, at your fingertips.</p>
+                <p>Let us know how we can help YOU.</p>
+            </section>
+
+            <div>
+                <form id="contact-us" action="https://formsubmit.co/c86365dc504037b020a9269765442e06" method="POST">
+                    <fieldset>
+                        <label for="first-name">Enter Your First Name: </label>
+                        <input id="first-name" name="first-name" type="text" required />
+                        <label for="last-name">Enter Your Last Name: </label>
+                        <input id="last-name" name="last-name" type="text" required />
+                        <label for="email">Enter Your Email: </label>
+                        <input id="email" name="email" type="email" required />
+                        <label for="reason">Reason For Contacting: </label>
+                        <textarea id="reason" name="reason" rows="7"></textarea>
+                    </fieldset>
+                    <input type="submit" value="submit" />
+                </form>
+            </div>
+        </main>
+
+    </body>
+</html>

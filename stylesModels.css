@@ -1,0 +1,21 @@
+
+#car-model-info {
+    width: 90vw;
+    height: 100%;                  
+  }
+
+  .car-info {
+    background-color: #C3D7D4;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 8px 9px;
+    visibility: visible;
+    justify-content: start;
+    list-style: none;
+    color: black;
+    border: solid 2px #91b6b0;
+    box-shadow: 2.5px 5px #91b6b0;
+    border-radius: 10px;
+    margin: 20px auto;
+  }
