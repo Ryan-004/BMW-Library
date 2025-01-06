@@ -68,9 +68,9 @@ displayCarInfo = (car) => {
                 <span><h2>Video featuring the ${car.title}</h2></span>
                 <span><div class="car-video">${car.video}</div></span>
                 <span><h2>${car.title} Features</h2></span>
-                <span><p>Engine: ${car.engine}</p></span>
-                <span><p>Performance: ${car.performance}</p></span>
-                <span><p>Body: ${car.body}</p></span>
+                <span><p><b>Engine:</b> ${car.engine}</p></span>
+                <span><p><b>Performance:</b> ${car.performance}</p></span>
+                <span><p><b>Body:</b> ${car.body}</p></span>
             </section>
         </li>`;
 };
