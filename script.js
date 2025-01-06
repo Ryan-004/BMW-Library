@@ -1,6 +1,6 @@
-//catalog
+//catalogue
 const carListItem = document.getElementById("car-list-item");
-const catalogLink = document.getElementById("catalog-link");
+const catalogueLink = document.getElementById("catalogue-link");
 
 //specific car info
 const carModelInfo = document.getElementById("car-model-info");
@@ -38,7 +38,7 @@ let userData = {
     currentCar: null,
 };
 
-// render catalog of all cars
+// render catalogue of all cars
 const renderCars = (array) => {
     const carsHTML = array.map((car) => {
         return `
@@ -54,7 +54,7 @@ const renderCars = (array) => {
 
     console.log("success");
 };
-catalogLink.addEventListener('click', renderCars(userData?.cars));
+catalogueLink.addEventListener('click', renderCars(userData?.cars));
 // renderCars(userData?.cars);
 
 // get selected cars index and display that specific car's information
