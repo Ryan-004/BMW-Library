@@ -19,17 +19,17 @@ const allCars = [
         id: 1,
         title: "BMW E92 M3",
         video: '<iframe width="1280" height="720" src="https://www.youtube.com/embed/9PwKvftyhyY" title="BMW M3 E92 | Midnight Run | 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
-        engine: "The M3 F80 has a 3.0 liter, inline 6-cylinder engine with a twin-turbocharger that produces 431 horsepower and 550 Newton meters of torque.",
-        performance: "The M3 F80 can accelerate from 0 to 60 mph in 4.1 seconds and has a top speed of 155 mph.",
-        body: "The M3 F80 has a larger body style than previous models, with a bonnet bulge, flared arches, and deep spoilers.",
+        engine: "The M3 E92 has a 4.0 liter, naturally aspirated V8 engine that produces 420 horsepower and 400 Newton meters of torque.",
+        performance: "The M3 E92 can accelerate from 0 to 60 mph in 4.6 seconds and has a top speed of 155 mph.",
+        body: "The M3 E92 features a wider and more aggressive body than the standard 3 Series coupe, with a distinctive power dome on the bonnet, flared wheel arches, and aerodynamic front and rear spoilers.",
     },
     {
         id: 2,
         title: "BMW E30 M3",
         video: '<iframe width="1280" height="720" src="https://www.youtube.com/embed/OjyWpCJukAg" title="CarAudioSecurity&#39;s BMW M3 (E30) on Air Suspension – #LifeOnAir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
-        engine: "The M3 F80 has a 3.0 liter, inline 6-cylinder engine with a twin-turbocharger that produces 431 horsepower and 550 Newton meters of torque.",
-        performance: "The M3 F80 can accelerate from 0 to 60 mph in 4.1 seconds and has a top speed of 155 mph.",
-        body: "The M3 F80 has a larger body style than previous models, with a bonnet bulge, flared arches, and deep spoilers.",
+        engine: "The M3 E30 has a 2.3 liter, naturally aspirated inline 4-cylinder engine that produces 192 horsepower and 240 Newton meters of torque.",
+        performance: "The M3 E30 can accelerate from 0 to 60 mph in 6.7 seconds and has a top speed of 146 mph.",
+        body: "The M3 E30 features a boxy, motorsport-inspired body with flared wheel arches, a raised rear spoiler, and a unique front bumper, all designed to improve aerodynamics and handling over the standard 3 Series.",
     }
 ];
 
